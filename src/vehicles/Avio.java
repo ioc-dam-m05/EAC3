@@ -2,7 +2,7 @@ package vehicles;
 
 public class Avio {
         String model;
-        int passatgers;
+        long autonomia;
 
         public void setModel (String model){
                 this.model=model;
@@ -12,12 +12,12 @@ public class Avio {
                 return model;
         }
 
-        public void setPassatgers (int passatgers){
-                this.passatgers=passatgers;
+        public void setAutonomia (long autonomia){
+                this.autonomia=autonomia;
         }
 
-        public int getPassatgers (){
-                return passatgers;
+        public long getAutonomia (){
+                return autonomia;
         }
 
 }
