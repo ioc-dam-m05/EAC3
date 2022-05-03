@@ -2,7 +2,7 @@ package vehicles;
 
 public class Avio {
         String model;
-        int passatgers;
+        float consum;
 
         public void setModel (String model){
                 this.model=model;
@@ -12,12 +12,12 @@ public class Avio {
                 return model;
         }
 
-        public void setPassatgers (int passatgers){
-                this.passatgers=passatgers;
+        public void setConsum (float consum){
+                this.consum=consum;
         }
 
-        public int getPassatgers (){
-                return passatgers;
+        public float getConsum (){
+                return consum;
         }
 
 }
